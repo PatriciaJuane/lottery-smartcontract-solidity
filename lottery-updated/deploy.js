@@ -4,8 +4,10 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
  
 const provider = new HDWalletProvider(
-  'nemonic metamask here',
-  'https://rinkeby.infura.io/v3/7455b548d838435e991e1abfc71ccdc4'
+    "YOUR_MNEMONIC",
+  // remember to change this to your own phrase!
+  "YOUR_INFURA_URL"
+  // remember to change this to your own endpoint!
 );
  
 const web3 = new Web3(provider);
