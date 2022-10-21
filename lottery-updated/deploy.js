@@ -4,7 +4,7 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
  
 const provider = new HDWalletProvider(
-  'control magnet auto whale change math veteran attract screen right box basket',
+  'nemonic metamask here',
   'https://rinkeby.infura.io/v3/7455b548d838435e991e1abfc71ccdc4'
 );
  
